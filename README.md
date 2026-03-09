@@ -4,7 +4,7 @@ The main part of this repo reflects my learning path for Vue 3 which is based on
 
 The book's content is organized as:
 
-## Part 1: Introduction and Crash Course
+### Part 1: Introduction and Crash Course
 
 #### Chapter 1: Starting Your First Vue Project
 
@@ -12,7 +12,7 @@ The book's content is organized as:
 
 #### Chapter 3: Vite and Vue Dev Tools
 
-## Part 2: Building Your First Vue App
+### Part 2: Building Your First Vue App
 
 #### Chapter 4: Nesting Components (Modularity)
 
@@ -24,13 +24,13 @@ The book's content is organized as:
 
 #### Chapter 8: Animations and Transitions
 
-## Part 3: Global State Management
+### Part 3: Global State Management
 
 #### Chapter 9: The State of Vue Management
 
 #### Chapter 10: State Management with Pinia
 
-## Part 4: Testing and Application Development
+### Part 4: Testing and Application Development
 
 #### Chapter 11: Unit Testing
 
