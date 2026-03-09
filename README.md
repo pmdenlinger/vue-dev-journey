@@ -6,37 +6,37 @@ The book's content is organized as:
 
 ### Part 1: Introduction and Crash Course
 
-#### Chapter 1: Starting Your First Vue Project
+Chapter 1: Starting Your First Vue Project
 
-#### Chapter 2: Working with Data
+Chapter 2: Working with Data
 
-#### Chapter 3: Vite and Vue Dev Tools
+Chapter 3: Vite and Vue Dev Tools
 
 ### Part 2: Building Your First Vue App
 
-#### Chapter 4: Nesting Components (Modularity)
+Chapter 4: Nesting Components (Modularity)
 
-#### Chapter 5: The Composition API
+Chapter 5: The Composition API
 
-#### Chapter 6: Global Component Composition
+Chapter 6: Global Component Composition
 
-#### Chapter 7: Routing
+Chapter 7: Routing
 
-#### Chapter 8: Animations and Transitions
+Chapter 8: Animations and Transitions
 
 ### Part 3: Global State Management
 
-#### Chapter 9: The State of Vue Management
+Chapter 9: The State of Vue Management
 
-#### Chapter 10: State Management with Pinia
+Chapter 10: State Management with Pinia
 
 ### Part 4: Testing and Application Development
 
-#### Chapter 11: Unit Testing
+Chapter 11: Unit Testing
 
-#### Chapter 12: End-to-End Testing
+Chapter 12: End-to-End Testing
 
-#### Chapter 13: Deploying Your Code to the Web
+Chapter 13: Deploying Your Code to the Web
 
 Each chapter of the book is numbered and includes exercises and activities under the vuejs3-projects-book directory.
 
