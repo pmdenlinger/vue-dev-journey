@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2022": true, "node": true },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "extraFileExtensions": [".vue"]
+  },
+  "plugins": ["vue"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "warn",
+    "vue/multi-word-component-names": "off"
+  }
+}
