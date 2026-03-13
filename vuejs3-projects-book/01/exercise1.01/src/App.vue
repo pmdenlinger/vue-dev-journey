@@ -1,10 +1,15 @@
 <!-- src/App.vue -->
 <template>
-  <div />
+  <Exercise />
 </template>
 
 <script>
-export default {};
+import Exercise from './components/Exercise1-01';
+export default {
+  components: {
+    Exercise,
+  },
+};
 </script>
 
 <style>
