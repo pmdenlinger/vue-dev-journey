@@ -1,17 +1,11 @@
-<!-- src/App.vue -->
+<script setup></script>
+
 <template>
-  <Exercise />
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
 </template>
 
-<script>
-import Exercise from './components/Exercise1-01';
-export default {
-  components: {
-    Exercise,
-  },
-};
-</script>
-
-<style>
-/* optional */
-</style>
+<style scoped></style>
