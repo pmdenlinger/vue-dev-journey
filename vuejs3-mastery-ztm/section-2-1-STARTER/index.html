@@ -8,6 +8,8 @@
     <div id="app" v-cloak>
         <p>{{ fullName() }}</p>
         <p><a :href="url" target="_blank">Google</a></p>
+        <p v-html="raw_url"></p>
+        <p>{{ age }}</p>
         <hr />
 
   <label>First Name</label>
@@ -15,8 +17,11 @@
 
   <label>Last Name</label>
   <input type="text" v-model="lastName">
+
+  <button type="button" v-on:click="increment">Increment</button>
+  <button type="button" v-on:click="age--">Decrement</button>
         
-    </di>
+    </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
