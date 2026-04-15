@@ -16,12 +16,18 @@ let vm = Vue.createApp({
   mounted() {
     console.log('mounted() function called', this.$el)
   }, 
-  beforeUpdate(){
+  beforeUpdate() {
     console.log("beforeUpdate() function called")
   },
   updated() {
     console.log('Updated function called!')
-  }
+  },
+  beforeUnmount() {
+    console.log('beforeUnmount() function called')
+  },
+  unmounted() {
+    console.log('unmounted() function called')
+  },
 })
 vm.mount('#app')
 
