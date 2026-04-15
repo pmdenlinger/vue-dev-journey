@@ -9,7 +9,10 @@ Vue.createApp({
     },
     computed: {
         box(){
-            
+            return {
+                transform: `perspective(this.perspective(${this.perspective}px))`
+            }
+
         }
     }
 }).mount("#app")
