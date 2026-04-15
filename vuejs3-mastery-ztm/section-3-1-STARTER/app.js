@@ -6,5 +6,10 @@ Vue.createApp({
             rotateY: 0, 
             rotateZ: 0
         }
+    },
+    computed: {
+        box(){
+            
+        }
     }
 }).mount("#app")
