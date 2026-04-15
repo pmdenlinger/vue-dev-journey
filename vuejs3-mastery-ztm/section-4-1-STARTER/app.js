@@ -3,7 +3,8 @@ let vm = Vue.createApp({
     return {
       message: "Hello world!"
     }
-  }
+  },
+  template: `{{ message }}`
 })
 vm.mount('#app')
 
