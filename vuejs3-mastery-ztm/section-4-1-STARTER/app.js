@@ -3,6 +3,9 @@ let vm = Vue.createApp({
     return {
       message: "Hello world!"
     }
+  },
+  beforeCreate(){
+    console.log('beforeCreate() function called', this.message)
   }
 })
 vm.mount('#app')
