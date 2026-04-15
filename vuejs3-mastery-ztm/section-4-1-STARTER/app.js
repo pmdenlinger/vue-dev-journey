@@ -5,7 +5,8 @@ let vm = Vue.createApp({
     }
   }
 })
+vm.mount('#app')
 
-setTimeout(() => {
-    vm.mount('#app')
-}, 3000)
+// setTimeout(() => {
+//     vm.mount('#app')
+// }, 3000)
