@@ -6,6 +6,9 @@ let vm = Vue.createApp({
   },
   beforeCreate(){
     console.log('beforeCreate() function called', this.message)
+  },
+  created() {
+    console.log('created() function called', this.message)
   }
 })
 vm.mount('#app')
