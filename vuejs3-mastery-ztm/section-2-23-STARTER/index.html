@@ -7,7 +7,7 @@
 
   <body>
     <div id="app">
-      <button type="button" class="move">Move to Bottom</button>
+      <button type="button" class="move" @click="move">Move to Bottom</button>
       <div class="card" v-for="person in people">
         <h3>{{ person.name }}</h3>
         <p>{{ person.message }}</p>
