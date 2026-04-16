@@ -8,3 +8,16 @@ let vm = Vue.createApp({
 })
 vm.mount('#app')
 
+let vm2 = Vue.createApp({
+        data () {
+            return {
+                message: "Hello earth2!"
+            }
+        },
+        render() {
+            return Vue.h(
+                'h1',
+                this.message
+            )
+        }
+}).mount('#app2')
