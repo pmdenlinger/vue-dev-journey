@@ -3,14 +3,12 @@
 </template>
 
 <script>
-    export default {
-        name: 'App',    
-        data () {
-            return {
-                msg: 'Hello world'
-            }
-        }
-    }
+export default {
+  name: 'App',
+  data() {
+    return {
+      msg: 'Hello world',
+    };
+  },
+};
 </script>
-
-
