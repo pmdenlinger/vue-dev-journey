@@ -1,0 +1,1 @@
+These projects use Vue JS 3 and Composition API and are based on the projects from this Udemy course: https://www.udemy.com/course/vue-in-action/
