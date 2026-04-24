@@ -12,6 +12,12 @@
       padding: 20px;
       font-size: 2em;
     }
+    .can {
+        color: green;
+    }
+    .cant {
+        color: red;
+    }
   </style>
   <script src="https://unpkg.com/vue@3.4.0"></script>
 </head>
@@ -19,22 +25,33 @@
 <body>
   <div id="app">
     <div>
-      {{message}}
+      {{ message }}
+    </div>
+   
+    <div>
+         Can you drive:
+        <span :class="{ can:canDrive === 'Yes', cant:canDrive === 'No' }">{{ canDrive }} </span>
     </div>
   </div>
   <script>
-    const { createApp, ref } = Vue;
+    const { createApp, ref, computed } = Vue;
 
     createApp({
       setup() {
         const message = ref("Hello world!");
+        const age = ref(null);
+        const canDrive = computed(() => {
+          console.log("Computed!");
+          return age.value >= 18 ? "Yes" : "No";
+        });
 
         setTimeout(() => {
           console.log("Changed!");
           message.value = "Goodbye!";
+          age.value = 24;
         }, 5000);
 
-        return { message };
+        return { message, canDrive };
       }
     }).mount('#app');
   </script>
